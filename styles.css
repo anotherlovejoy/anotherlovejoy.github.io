@@ -1,0 +1,115 @@
+/*Universal*/
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf) format("truetype");
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/static/Montserrat-Regular.ttf) format("truetype");
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/static/Montserrat-Medium.ttf) format("truetype");
+    font-family: "Source Sans Pro";
+    src: url(fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf) format("truetype");
+}
+
+/*Body*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 10%;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/*Color*/
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.marble-blue {
+    background-color: #4A707A;
+}
+
+.regent-grey {
+    background-color: #7697A0;
+}
+
+.gull-grey {
+    background-color: #94B0B7;
+}
+
+.silver {
+    background-color: #C2C8C5;
+}
+
+.gainsboro {
+    background-color: #DDDDDA;
+}
+
+/*Font*/
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.source-sans-pro {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/*Text*/
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+}
